@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: justify;
+  color: #000000;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+h1,
+h3 {
+  color: #0a0f3d;
+  text-shadow: 0px 3px 4px rgba(10, 15, 61, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20rem;
+  line-height: 19.5rem;
+  text-align: center;
+  color: rgba(170, 173, 200, 0.65);
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 66%;
+  margin: 0 auto;
+}
+
+/* MENU */
+.header {
+  background: linear-gradient(180deg, #e9ebf8 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 20vh;
+}
+
+.logo {
+  margin-left: 3rem;
+}
+
+.list {
+  display: flex;
+}
+
+.list__item {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.list :last-child {
+  margin-right: 0;
+}
+
+.list__item a {
+  color: #0a0f3d;
+}
+
+/* PROMO */
+.main__heading {
+  background: url(../images/decorblock4.png) center no-repeat;
+  text-align: center;
+  width: 79.6rem;
+}
+
+.main__heading h1 {
+  padding-bottom: 4rem;
+}
+
+/* SECTION HEADING */

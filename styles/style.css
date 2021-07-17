@@ -191,7 +191,8 @@ a {
   min-height: 37rem;
   padding: 0 0 6.5rem 6rem;
   margin: 3rem;
-  background: linear-gradient(to left, transparent 50%, #e0e1ef 50%) top / 100% 10%,
+  background: linear-gradient(to left, transparent 50%, #e0e1ef 50%) top / 100%
+      10%,
     linear-gradient(to left, transparent 50%, #e0e1ef 50%) bottom/100% 10%,
     linear-gradient(to left, transparent 50%, #e0e1ef 50%) left/10% 80%;
   background-repeat: no-repeat;
@@ -217,9 +218,25 @@ a {
 }
 
 .article--reverse {
-  background: linear-gradient(to right, transparent 50%, #e0e1ef 50%) top / 100% 10%,
+  background: linear-gradient(to right, transparent 50%, #e0e1ef 50%) top / 100%
+      10%,
     linear-gradient(to right, transparent 50%, #e0e1ef 50%) bottom / 100% 10%,
     linear-gradient(to right, transparent 50%, #e0e1ef 50%) right / 10% 80%;
   background-repeat: no-repeat;
   padding: 0 6.5rem 0 6rem;
 }
+
+/* EXPERIENCE SECTION */
+.experience__image {
+  display: inline-block;
+  background: linear-gradient(to left, transparent 50%, #A8ABC2 50%) top / 100%
+      10%,
+    linear-gradient(to left, transparent 50%, #A8ABC2 50%) top left / 20% 70%,
+    linear-gradient(to right, transparent 50%, #C7C9DB 50%) bottom / 100% 10%,
+    linear-gradient(to right, transparent 50%, #C7C9DB 50%) bottom right / 20% 70%;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+
+
+

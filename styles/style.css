@@ -229,14 +229,32 @@ a {
 /* EXPERIENCE SECTION */
 .experience__image {
   display: inline-block;
-  background: linear-gradient(to left, transparent 50%, #A8ABC2 50%) top / 100%
+  background: linear-gradient(to left, transparent 50%, #a8abc2 50%) top / 100%
       10%,
-    linear-gradient(to left, transparent 50%, #A8ABC2 50%) top left / 20% 70%,
-    linear-gradient(to right, transparent 50%, #C7C9DB 50%) bottom / 100% 10%,
-    linear-gradient(to right, transparent 50%, #C7C9DB 50%) bottom right / 20% 70%;
+    linear-gradient(to left, transparent 50%, #a8abc2 50%) top left / 20% 70%,
+    linear-gradient(to right, transparent 50%, #c7c9db 50%) bottom / 100% 10%,
+    linear-gradient(to right, transparent 50%, #c7c9db 50%) bottom right / 20%
+      70%;
   background-repeat: no-repeat;
   padding: 4rem;
 }
 
-
-
+.number {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14.4rem;
+  line-height: 17.6rem;
+  color: #0a0f3d;
+  text-shadow: 20px 28px 12px rgba(10, 15, 61, 0.3);
+  background: linear-gradient(to left, transparent 50%, #c7c9db 50%) right bottom /
+  80% 85%,
+  linear-gradient(to right, transparent 50%, #c7c9db 50%) right bottom /
+  100% 85%,
+  linear-gradient(to left, transparent 50%, #a8abc2 50%) right top /
+  100% 85%,
+  linear-gradient(to right, transparent 50%, #a8abc2 50%) left top /
+  80% 90%;
+  background-repeat: no-repeat;
+  padding: 6rem;
+}

@@ -124,7 +124,7 @@ a {
 
 .hero__logo {
   top: 10%;
-  z-index: -2;
+  z-index: -4;
 }
 
 /* PROMO */
@@ -226,8 +226,23 @@ a {
   padding: 0 6.5rem 0 6rem;
 }
 
-/* EXPERIENCE SECTION */
-.experience__image {
+/* ABOUT ME SECTION */
+.about-me,
+.about-me__card {
+  display: flex;
+}
+
+.about-me {
+  align-items: flex-start;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+
+.about-me__wrapper {
+  position: relative;
+}
+
+.about-me__image {
   display: inline-block;
   background: linear-gradient(to left, transparent 50%, #a8abc2 50%) top / 100%
       10%,
@@ -237,8 +252,29 @@ a {
       70%;
   background-repeat: no-repeat;
   padding: 4rem;
+  width: 100%;
 }
 
+.about-me__card {
+  align-items: center;
+  flex-direction: column;
+  margin-left: 9rem;
+}
+
+.about-me__text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: justify;
+  margin-top: 4rem;
+}
+
+.about-me__heading {
+  position: absolute;
+  bottom: 5px;
+
+}
+/* EXPERIENCE SECTION */
 .number {
   display: inline-block;
   text-align: center;
